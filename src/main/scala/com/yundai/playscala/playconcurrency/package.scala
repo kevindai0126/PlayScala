@@ -1,11 +1,11 @@
-package com.yundai.playscala.playconcurrency
+package com.yundai.playscala
 
 import scala.concurrent.ExecutionContext
 
 /**
  * Created by yundai on 10/10/15.
  */
-package object playexecutor {
+package object playconcurrency {
 
   def execute(body: => Unit) =
   ExecutionContext.global.execute(
