@@ -1,0 +1,13 @@
+*~
+target/
+nogit/
+junk/
+.idea/
+.idea_modules/
+out/
+*.iml
+mods/
+jars
+*.log
+atlassian-ide-plugin.xml
+META-INF/
