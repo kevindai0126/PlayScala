@@ -12,4 +12,4 @@ resolvers ++= Seq(
   "typesafe" at "http://repo.typesafe.com/typesafe/leases/"
 )
 
-fork := true
+fork := false
