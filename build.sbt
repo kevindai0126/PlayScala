@@ -12,4 +12,6 @@ resolvers ++= Seq(
   "typesafe" at "http://repo.typesafe.com/typesafe/leases/"
 )
 
+libraryDependencies += "com.netflix.rxjava" % "rxjava-scala" % "0.20.7"
+
 fork := false
