@@ -13,5 +13,8 @@ resolvers ++= Seq(
 )
 
 libraryDependencies += "com.netflix.rxjava" % "rxjava-scala" % "0.20.7"
+libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.2"
+libraryDependencies += "commons-io" % "commons-io" % "2.4"
+libraryDependencies += "com.typesafe.akka" %% "akka-remote" % "2.3.2"
 
 fork := false
